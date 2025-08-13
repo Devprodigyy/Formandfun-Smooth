@@ -1,0 +1,12 @@
+1. Main file me setTimeout k sath animation function ko run krna hai - jub aap alg file banarehe ho sirf animations k liye
+2. Ager routing use kr rahe ho to.. aapko har route me.. use route se related animation ko UseEffect k ander run krna hoga..
+
+
+also add saftychecks- otherwise code will crash - 
+(jub chize render na ho... ya aap durse route pe ho .. jisme vo element nhi hai.. tub ye code help krta hai)
+
+Ex: 
+ if (!main || !cursor) {
+    console.warn("Main or cursor not found");
+    return;
+  }

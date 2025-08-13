@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+* {
+  font-family: regular;
+  /* cursor: none; */
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("/Fonts/Aeonik-Regular.otf");
+}
+
+@font-face {
+  font-family: Mid;
+  src: url("/Fonts/Aeonik-Medium.otf");
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
